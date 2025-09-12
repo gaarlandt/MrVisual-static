@@ -1,10 +1,10 @@
 ---
 title: "3D Renders - Mr. Visual"
 layout: "layout.njk"
-permalink: /renders/index.html
+permalink: renders/index.html
 ---
 
-<section class="hero" style="background-image: url('/images/Bennekom-Project-Garden.jpg');">
+<section class="hero" style="background-image: url('images/Bennekom-Project-Garden.jpg');">
     <div class="hero-content">
         <h1>3D Renders</h1>
         <p>Van een simpel idee naar een fotorealistisch beeld.</p>
@@ -19,22 +19,22 @@ permalink: /renders/index.html
         <h2 class="add-ons-title">Beschikbare Add-Ons</h2>
         <div class="add-ons-grid">
             <div class="add-on-card">
-                <img src="/images/plattegrond.jpg" alt="Plattegrond">
+                <img src="images/plattegrond.jpg" alt="Plattegrond">
                 <h3>Plattegrond</h3>
                 <p>Gedetailleerde 2D of 3D plattegronden die een duidelijk overzicht van de indeling geven.</p>
             </div>
             <div class="add-on-card">
-                <img src="/images/drone.jpg" alt="Drone">
+                <img src="images/drone.jpg" alt="Drone">
                 <h3>Drone</h3>
                 <p>Integratie van uw 3D model in dronefotografie voor een realistische weergave in de omgeving.</p>
             </div>
             <div class="add-on-card">
-                <img src="/images/Jall-Lounge-03.jpg" alt="360 Beeld">
+                <img src="images/Jall-Lounge-03.jpg" alt="360 Beeld">
                 <h3>360 Beeld</h3>
                 <p>Interactieve 360 graden beelden waarmee u virtueel door de ruimte kunt bewegen.</p>
             </div>
             <div class="add-on-card">
-                <img src="/images/Luxembourg-Project-Pool.webp" alt="Animatie Film">
+                <img src="images/Luxembourg-Project-Pool.webp" alt="Animatie Film">
                 <h3>Animatie Film</h3>
                 <p>Een complete animatiefilm die uw project op een dynamische en meeslepende manier presenteert.</p>
             </div>

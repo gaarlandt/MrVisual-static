@@ -1,10 +1,10 @@
 ---
 title: "AI Foto Optimalisatie - Mr. Visual"
 layout: "layout.njk"
-permalink: /ai-fotos/index.html
+permalink: ai-fotos/index.html
 ---
 
-<section class="hero" style="background-image: url('/images/Funda foto product.jpeg');">
+<section class="hero" style="background-image: url('images/Funda foto product.jpeg');">
     <div class="hero-content">
         <h1>AI Foto Optimalisatie</h1>
         <p>Transformeer uw foto's naar professionele beelden met de kracht van AI.</p>
