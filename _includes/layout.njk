@@ -1,0 +1,48 @@
+<!-- In _includes/layout.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>  <!-- 'title' is a variable from our content pages -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="/">Mr. Visual</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="/renders/">3D Renders</a></li>
+                <li><a href="/ai-fotos/">AI Foto Optimalisatie</a></li>
+                <li><a href="https://bouwzaken.spp.co/contact/helpdesk">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page-specific content will be injected here -->
+        {{ content | safe }}
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mr. Visual. Alle rechten voorbehouden.</p>
+            <!-- Here's how you use your centralized link data! -->
+            <p>
+                Find me on <a href="{{ links.twitter }}">Twitter</a>,
+                <a href="{{ links.github }}">GitHub</a>, and
+                <a href="{{ links.linkedin }}">LinkedIn</a>.
+            </p>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>

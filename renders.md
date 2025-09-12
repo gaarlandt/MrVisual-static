@@ -1,0 +1,49 @@
+---
+title: "3D Renders - Mr. Visual"
+layout: "layout.njk"
+permalink: /renders/index.html
+---
+
+<section class="hero" style="background-image: url('/images/Bennekom-Project-Garden.jpg');">
+    <div class="hero-content">
+        <h1>3D Renders</h1>
+        <p>Van een simpel idee naar een fotorealistisch beeld.</p>
+    </div>
+</section>
+
+<section class="page-content">
+    <div class="container">
+        <h2>Basisproduct</h2>
+        <p>Ons basisproduct omvat een hoogwaardige 3D render van uw project. Wij werken nauw met u samen om uw visie tot in de kleinste details te realiseren. Perfect voor architecten, projectontwikkelaars en makelaars die hun projecten op een indrukwekkende manier willen presenteren.</p>
+
+        <h2 class="add-ons-title">Beschikbare Add-Ons</h2>
+        <div class="add-ons-grid">
+            <div class="add-on-card">
+                <img src="/images/plattegrond.jpg" alt="Plattegrond">
+                <h3>Plattegrond</h3>
+                <p>Gedetailleerde 2D of 3D plattegronden die een duidelijk overzicht van de indeling geven.</p>
+            </div>
+            <div class="add-on-card">
+                <img src="/images/drone.jpg" alt="Drone">
+                <h3>Drone</h3>
+                <p>Integratie van uw 3D model in dronefotografie voor een realistische weergave in de omgeving.</p>
+            </div>
+            <div class="add-on-card">
+                <img src="/images/Jall-Lounge-03.jpg" alt="360 Beeld">
+                <h3>360 Beeld</h3>
+                <p>Interactieve 360 graden beelden waarmee u virtueel door de ruimte kunt bewegen.</p>
+            </div>
+            <div class="add-on-card">
+                <img src="/images/Luxembourg-Project-Pool.webp" alt="Animatie Film">
+                <h3>Animatie Film</h3>
+                <p>Een complete animatiefilm die uw project op een dynamische en meeslepende manier presenteert.</p>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2>Klaar om te beginnen?</h2>
+            <p>Vraag een vrijblijvende offerte aan en ontdek de mogelijkheden.</p>
+            <a href="https://bouwzaken.spp.co/contact/Render_offerte" class="btn">Offerte aanvragen</a>
+        </div>
+    </div>
+</section>
