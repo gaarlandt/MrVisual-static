@@ -5,7 +5,7 @@ layout: "layout.njk"
 
 <section class="hero">
     <div class="hero-content">
-        <h1>Welkom bij Mr. Visual</h1>
+        <h1>Welkom bij Mister Visual</h1>
         <p>Wij creëren hoogwaardige 3D renders en optimaliseren uw foto's met AI.</p>
         <div class="hero-buttons">
             <a href="/renders/" class="btn">Ontdek 3D Renders</a>
@@ -16,7 +16,7 @@ layout: "layout.njk"
 
 <section class="intro">
     <div class="container">
-        <h2>Wat we doen</h2>
+        <h2>Onze Diensten</h2>
         <div class="intro-grid">
             <div class="intro-card">
                 <img src="/images/Funda foto product.jpeg" alt="AI Foto">
