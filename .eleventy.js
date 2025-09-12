@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("CNAME");
 
   return {
+    pathPrefix: "/MrVisual-static/",
     dir: {
       input: ".",
       includes: "_includes",
