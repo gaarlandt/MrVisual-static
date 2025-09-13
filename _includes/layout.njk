@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>  <!-- 'title' is a variable from our content pages -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700">
-    <link rel="stylesheet" href="{{ '/style.css' | url }}">
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
@@ -18,11 +18,11 @@
                 <div class="bar"></div>
             </div>
             <div class="logo">
-                <a href="{{ '/' | url }}">Mister Visual</a>
+                <a href="/">Mister Visual</a>
             </div>
             <ul class="nav-links" id="nav-links">
-                <li><a href="{{ '/renders/' | url }}">3D Renders</a></li>
-                <li><a href="{{ '/ai-fotos/' | url }}">AI Foto Optimalisatie</a></li>
+                <li><a href="/renders/">3D Renders</a></li>
+                <li><a href="/ai-fotos/">AI Foto Optimalisatie</a></li>
                 <li><a href="https://bouwzaken.spp.co/contact/helpdesk">Contact</a></li>
             </ul>
         </nav>
@@ -46,6 +46,6 @@
     </footer>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="{{ '/script.js' | url }}"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
