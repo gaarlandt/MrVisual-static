@@ -1,5 +1,3 @@
-const isProduction = process.env.ELEVENTY_ENV === 'production';
-
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("style.css");
   eleventyConfig.addPassthroughCopy("script.js");
@@ -7,7 +5,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("CNAME");
 
   return {
-    pathPrefix: isProduction ? "/MrVisual-static/" : "/",
+    pathPrefix: "/",
     dir: {
       input: ".",
       includes: "_includes",
